@@ -12,6 +12,6 @@ Please add cs_MouseController.cs in your project.
 
 If you use this program, write following code as example.
 ```cs
-var mouse = new cs_MouseController();
+var mouse = new MouseController();
 mouse.SetPosition(new Point(0, 0));
 ```
