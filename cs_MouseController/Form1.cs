@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using MouseControllerUtil;
+
 namespace cs_MouseController
 {
     public partial class Form1 : Form
@@ -19,7 +21,7 @@ namespace cs_MouseController
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var mouse = new cs_MouseController();
+            var mouse = new MouseController();
             mouse.SetPosition(new Point(0, 0));
         }
     }
